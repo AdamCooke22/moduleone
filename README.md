@@ -31,7 +31,16 @@ In this part we have a list of loans and we are trying to create an additional l
   To see what we were able to add to the new list we use the print function () along with the name of the new list. When doing so we were able to add two new entries to the list and both of them satisfy the criteria.
   
 Part 5
-In order to output the list that we were working on we need to create a new csv file.
+In order to output the list that we were working on we need to create a new csv file. This is used to store the data in a spreadsheet format.
+  The header defines the column names and the rows contain the values that pair with the columns. We also are using a delimiter to seperate the entries by using a comma between them by using ",". By using the with and open functions it allows us to establish a connection from our python file to the csv file that we created.
+  Then we use a loop again so we can go through each row at a time and select and outpust each entry in the list to the spreadsheet.
+  "w" indicates that we are writing to a file, and allows us to write the data from python to a new csv file.
+  We start off by writing the first row, which is going to be the headers, then every subsequent row we use the for loop to input the data from the inexpensive loan list. 
+  
+  
+  
+  
+After completion this file is added to a github repository and shared via the link associated with the repository.
   
 
 
